@@ -10,3 +10,30 @@ body{
     flex-direction: column;
 
 }
+#grid{
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem;
+    grid-template-rows: 5rem 5rem 5rem;
+    gap: 1rem;
+    margin: 3rem auto;
+}
+.case{
+    
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    cursor: pointer;
+     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+p{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+p:first-of-type{
+    color: lightseagreen;
+}
