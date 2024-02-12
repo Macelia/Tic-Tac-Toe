@@ -10,6 +10,9 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: rgb(72, 80, 4);
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjQ2Mi1uLTEzMC10ZXh0dXJlaWRlYV8xLmpwZw.jpg');
+    background-size: cover;
+    color: rgb(230, 139, 20);
 
 }
 #grid{
@@ -18,6 +21,7 @@ body{
     grid-template-rows: 5rem 5rem 5rem;
     gap: 1rem;
     margin: 1.5rem auto;
+    color: red;
 }
 .case{
     
@@ -37,7 +41,7 @@ p{
 }
 
 p:first-of-type{
-    color: rgb(3, 44, 42);
+    color: rgb(208, 241, 240);
     font-weight: lighter;
 }
 h1{
